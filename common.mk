@@ -476,6 +476,11 @@ PRODUCT_PACKAGES += \
     libgui_vendor \
     vndk_package
 
+# Wallpapers
+PRODUCT_PACKAGES += \
+    PixelLiveWallpaperPrebuilt \
+    librs_jni
+
 # Weaver
 PRODUCT_PACKAGES += \
     android.hardware.weaver@1.0
