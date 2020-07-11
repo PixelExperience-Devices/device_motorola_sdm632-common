@@ -394,6 +394,9 @@ PRODUCT_PACKAGES += \
     rcs_service_api \
     rcs_service_api.xml
 
+# Recorder
+TARGET_SUPPORTS_GOOGLE_RECORDER := true
+
 # Recovery
 TARGET_RECOVERY_DENSITY := xhdpi
 
