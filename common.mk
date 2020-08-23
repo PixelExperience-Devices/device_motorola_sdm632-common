@@ -72,6 +72,9 @@ PRODUCT_PACKAGES += \
     bootctrl.msm8953 \
     bootctrl.msm8953.recovery
 
+# ARCore
+TARGET_INCLUDE_STOCK_ARCORE := true
+
 # Audio
 PRODUCT_PACKAGES += \
     android.hardware.audio@5.0-impl \
