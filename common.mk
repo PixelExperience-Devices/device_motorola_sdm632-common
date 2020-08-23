@@ -35,8 +35,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/updatable_apex.mk)
 
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += \
-    $(LOCAL_PATH)/overlay \
-    $(LOCAL_PATH)/overlay-lineage
+    $(LOCAL_PATH)/overlay
 
 PRODUCT_ENFORCE_RRO_TARGETS := \
     framework-res
@@ -176,6 +175,9 @@ PRODUCT_PACKAGES += \
     qcom.fmradio
 
 PRODUCT_BOOT_JARS += qcom.fmradio
+
+# Google Apps
+TARGET_GAPPS_ARCH := arm64
 
 # GPS
 PRODUCT_PACKAGES += \
@@ -449,10 +451,6 @@ PRODUCT_PACKAGES += \
 # Touchscreen
 PRODUCT_PACKAGES += \
     libtinyxml2
-
-# Trust HAL
-PRODUCT_PACKAGES += \
-    vendor.lineage.trust@1.0-service
 
 # USB
 PRODUCT_PACKAGES += \
