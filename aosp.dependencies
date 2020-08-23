@@ -1,0 +1,18 @@
+[
+  {
+    "repository": "hardware_motorola",
+    "target_path": "hardware/motorola",
+    "branch": "eleven"
+  },
+  {
+    "repository": "kernel_motorola_sdm632",
+    "target_path": "kernel/motorola/sdm632",
+    "branch": "eleven"
+  },
+  {
+    "remote": "pixel-devices-blobs",
+    "repository": "vendor_motorola_sdm632-common",
+    "target_path": "vendor/motorola/sdm632-common",
+    "branch": "eleven"
+  }
+]
