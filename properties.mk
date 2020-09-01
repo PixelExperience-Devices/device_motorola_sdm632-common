@@ -58,7 +58,8 @@ PRODUCT_PROPERTY_OVERRIDES += \
     vidc.enc.dcvs.extra-buff-count=2 \
     persist.vendor.camera.preview.ubwc=0 \
     vendor.video.disable.ubwc=1 \
-    vendor.vidc.disable.split.mode=1
+    vendor.vidc.disable.split.mode=1 \
+    persist.vendor.camera.expose.aux=1
 
 # Codec2 switch
 PRODUCT_PROPERTY_OVERRIDES += \
