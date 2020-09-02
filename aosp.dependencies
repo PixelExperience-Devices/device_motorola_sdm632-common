@@ -1,9 +1,8 @@
 [
   {
-    "remote": "lineage",
-    "repository": "android_kernel_motorola_sdm632",
+    "repository": "kernel_motorola_sdm632",
     "target_path": "kernel/motorola/sdm632",
-    "branch": "lineage-17.1"
+    "branch": "ten"
   },
   {
     "remote": "lineage",
