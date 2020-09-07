@@ -128,7 +128,7 @@ PRODUCT_PACKAGES += \
     camera.device@3.2-impl:32 \
     libbson.vendor \
     libxml2 \
-    Snap
+    MotCamera2
 
 # Codec2 modules
 PRODUCT_PACKAGES += \
