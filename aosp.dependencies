@@ -27,5 +27,11 @@
     "repository": "vendor_motorola_sdm632-common",
     "target_path": "vendor/motorola/sdm632-common",
     "branch": "ten"
+  },
+  {
+    "repository" : "packages_apps_MotCamera2",
+    "target_path" : "packages/apps/MotCamera2",
+    "branch" : "ten-denali",
+    "remote" : "pixel-devices-blobs"
   }
 ]
