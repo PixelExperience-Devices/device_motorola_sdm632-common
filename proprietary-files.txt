@@ -134,7 +134,7 @@ vendor/bin/cnd|ca653a8064fe83a12a12798a73c9cc8c1fecf758
 vendor/lib64/libcne.so|1344c4749026a55eee9e3a814c7a71b6733e08fb
 
 # Dolby
--app/MotoDolbyV3/MotoDolbyV3.apk
+-app/MotoDolbyV3/MotoDolbyV3.apk|c9cd7f118099d507230f701e9b759428d4578dc5
 etc/permissions/com.dolby.daxservice.xml
 etc/permissions/com.motorola.dolby.dolbyui.features.xml
 -priv-app/daxService/daxService.apk
