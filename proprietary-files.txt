@@ -130,7 +130,7 @@ vendor/lib64/vendor.qti.hardware.slmadapter@1.0.so
 vendor/lib64/vendor.qti.latency@2.0.so
 
 # Dolby
--app/MotoDolbyV3/MotoDolbyV3.apk
+-app/MotoDolbyV3/MotoDolbyV3.apk|c9cd7f118099d507230f701e9b759428d4578dc5
 etc/permissions/com.dolby.daxservice.xml
 etc/permissions/com.motorola.dolby.dolbyui.features.xml
 -priv-app/daxService/daxService.apk
