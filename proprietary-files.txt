@@ -618,7 +618,7 @@ vendor/lib64/libqmimotext.so
 -vendor/lib64/libqmiservices.so
 vendor/lib64/libqrtr.so
 vendor/lib64/libqsocket.so
-vendor/lib64/libril-qc-hal-qmi.so
+vendor/lib64/libril-qc-hal-qmi.so|9938f2b9d4b769859cc902197de4769cfc511d5a
 vendor/lib64/libril-qc-ltedirectdisc.so
 vendor/lib64/libril-qc-radioconfig.so
 vendor/lib64/libril-qcril-hook-oem.so
