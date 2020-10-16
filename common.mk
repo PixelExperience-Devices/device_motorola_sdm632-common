@@ -180,8 +180,6 @@ PRODUCT_PACKAGES += \
     init.qti.fm.sh \
     qcom.fmradio
 
-PRODUCT_BOOT_JARS += qcom.fmradio
-
 # Google Apps
 TARGET_GAPPS_ARCH := arm64
 
