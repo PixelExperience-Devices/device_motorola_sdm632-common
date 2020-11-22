@@ -17,12 +17,6 @@
     "branch": "lineage-17.1"
   },
   {
-    "remote" : "pixel-gitlab",
-    "repository" : "packages_apps_PixelLiveWallpaper",
-    "target_path" : "packages/apps/PixelLiveWallpaper",
-    "branch" : "ten"
-  },
-  {
     "remote": "pixel-devices-blobs",
     "repository": "vendor_motorola_sdm632-common",
     "target_path": "vendor/motorola/sdm632-common",
