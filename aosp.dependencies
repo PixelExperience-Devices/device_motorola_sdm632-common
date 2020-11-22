@@ -2,25 +2,13 @@
   {
     "repository": "kernel_motorola_sdm632",
     "target_path": "kernel/motorola/sdm632",
-    "branch": "ten"
-  },
-  {
-    "remote": "lineage",
-    "repository": "android_external_bson",
-    "target_path": "external/bson",
-    "branch": "lineage-17.1"
-  },
-  {
-    "remote": "lineage",
-    "repository": "android_system_qcom",
-    "target_path": "system/qcom",
-    "branch": "lineage-17.1"
+    "branch": "eleven"
   },
   {
     "remote": "pixel-devices-blobs",
     "repository": "vendor_motorola_sdm632-common",
     "target_path": "vendor/motorola/sdm632-common",
-    "branch": "ten"
+    "branch": "eleven"
   },
   {
     "repository" : "packages_apps_MotCamera2",
