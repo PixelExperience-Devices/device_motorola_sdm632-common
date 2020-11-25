@@ -128,8 +128,7 @@ PRODUCT_PACKAGES += \
     android.hardware.camera.provider@2.5 \
     camera.device@3.2-impl \
     libbson.vendor \
-    libxml2 \
-    MotCamera2
+    libxml2
 
 # Codec2 modules
 PRODUCT_PACKAGES += \
@@ -175,10 +174,8 @@ PRODUCT_PACKAGES += \
 
 # FM
 PRODUCT_PACKAGES += \
-    FM2 \
-    libqcomfm_jni \
-    init.qti.fm.sh \
-    qcom.fmradio
+    FMRadio \
+    libfmjni
 
 # Google Apps
 TARGET_GAPPS_ARCH := arm64
