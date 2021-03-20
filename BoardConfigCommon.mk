@@ -138,6 +138,12 @@ TARGET_USES_GRALLOC1 := true
 # DRM
 TARGET_ENABLE_MEDIADRM_64 := true
 
+# Dynamic partitions
+BOARD_SUPER_PARTITION_GROUPS := moto_dynamic_partitions
+BOARD_MOTO_DYNAMIC_PARTITIONS_PARTITION_LIST := system vendor
+BOARD_SUPER_PARTITION_METADATA_DEVICE := system
+BOARD_SUPER_PARTITION_BLOCK_DEVICES := system vendor
+
 # Enable dexpreopt to speed boot time
 ifeq ($(HOST_OS),linux)
     ifneq ($(TARGET_BUILD_VARIANT),eng)
@@ -173,6 +179,7 @@ TARGET_RECOVERY_DEVICE_MODULES := libinit_sdm632
 BOARD_KERNEL_CMDLINE += androidboot.hardware=qcom ehci-hcd.park=3 lpm_levels.sleep_disabled=1
 BOARD_KERNEL_CMDLINE += androidboot.bootdevice=7824900.sdhci androidboot.usbconfigfs=true
 BOARD_KERNEL_CMDLINE += loop.max_part=7
+BOARD_KERNEL_CMDLINE += androidboot.boot_devices=soc/7824900.sdhci
 #BOARD_KERNEL_CMDLINE += androidboot.selinux=permissive
 BOARD_KERNEL_BASE := 0x80000000
 BOARD_KERNEL_PAGESIZE :=  2048
@@ -202,7 +209,6 @@ ODM_MANIFEST_NFC_FILES := $(PLATFORM_PATH)/odm_manifest_nfc.xml
 BOARD_FLASH_BLOCK_SIZE := 131072                  # (BOARD_KERNEL_PAGESIZE * 64)
 BOARD_DTBOIMG_PARTITION_SIZE := 8388608
 BOARD_VENDORIMAGE_FILE_SYSTEM_TYPE := ext4
-BOARD_BUILD_SYSTEM_ROOT_IMAGE := true
 BOARD_HAS_LARGE_FILESYSTEM := true
 BOARD_USES_RECOVERY_AS_BOOT := true
 TARGET_EXFAT_DRIVER := exfat

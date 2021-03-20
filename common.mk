@@ -50,12 +50,19 @@ AB_OTA_PARTITIONS += \
     vendor
 
 AB_OTA_POSTINSTALL_CONFIG += \
+    RUN_POSTINSTALL_product=true \
+    POSTINSTALL_PATH_product=bin/check_dynamic_partitions \
+    FILESYSTEM_TYPE_product=ext4 \
+    POSTINSTALL_OPTIONAL_product=false
+
+AB_OTA_POSTINSTALL_CONFIG += \
     RUN_POSTINSTALL_system=true \
     POSTINSTALL_PATH_system=system/bin/otapreopt_script \
     FILESYSTEM_TYPE_system=ext4 \
     POSTINSTALL_OPTIONAL_system=true
 
 PRODUCT_PACKAGES += \
+    check_dynamic_partitions \
     otapreopt_script \
     update_engine \
     update_engine_sideload \
@@ -160,6 +167,10 @@ PRODUCT_PACKAGES += \
     android.hardware.drm@1.0-service \
     android.hardware.drm@1.3-service.clearkey
 
+# Dynamic partitions
+PRODUCT_USE_DYNAMIC_PARTITIONS := true
+PRODUCT_RETROFIT_DYNAMIC_PARTITIONS := true
+
 # Fingerprint
 PRODUCT_PACKAGES += \
     android.hardware.biometrics.fingerprint@2.1
@@ -231,6 +242,7 @@ PRODUCT_PACKAGES += \
     init.qcom.rc \
     init.target.rc \
     fstab.qcom \
+    fstab_ramdisk.qcom \
     ueventd.qcom.rc
 
 # IPACM
