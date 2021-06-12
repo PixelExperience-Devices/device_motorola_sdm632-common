@@ -7,7 +7,7 @@
   {
     "repository": "kernel_motorola_sdm632",
     "target_path": "kernel/motorola/sdm632",
-    "branch": "eleven"
+    "branch": "eleven-wip"
   },
   {
     "remote" : "pixel-devices-blobs",
