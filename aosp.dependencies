@@ -10,6 +10,12 @@
     "branch": "eleven"
   },
   {
+    "remote" : "pixel-devices-blobs",
+    "repository" : "packages_apps_MotCamera2",
+    "target_path" : "packages/apps/MotCamera2",
+    "branch" : "eleven-denali"
+  },
+  {
     "remote": "pixel-devices-blobs",
     "repository": "vendor_motorola_sdm632-common",
     "target_path": "vendor/motorola/sdm632-common",
