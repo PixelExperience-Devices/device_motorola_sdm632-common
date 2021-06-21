@@ -47,6 +47,10 @@ vendor/lib64/com.qualcomm.qti.ant@1.0.so
 vendor/lib64/hw/vendor.qti.hardware.bluetooth_sar@1.0-impl.so
 vendor/lib64/vendor.qti.hardware.bluetooth_sar@1.0.so
 
+# Camera
+etc/permissions/com.motorola.motosignature.xml:vendor/etc/permissions/com.motorola.motosignature.xml
+framework/com.motorola.motosignature.jar:vendor/framework/com.motorola.motosignature.jar
+
 # CNE
 product/etc/permissions/vendor.qti.hardware.data.connection-V1.0-java.xml
 product/etc/permissions/vendor.qti.hardware.data.connection-V1.1-java.xml
