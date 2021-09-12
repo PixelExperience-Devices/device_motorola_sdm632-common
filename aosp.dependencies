@@ -1,5 +1,6 @@
 [
   {
+    "remote": "pixel",
     "repository": "hardware_motorola",
     "target_path": "hardware/motorola",
     "branch": "eleven"
