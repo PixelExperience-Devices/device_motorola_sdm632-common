@@ -51,7 +51,8 @@ PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
 PRODUCT_PROPERTY_OVERRIDES += \
     bluetooth.hfp.client=1 \
     ro.qualcomm.bt.hci_transport=smd \
-    persist.vendor.qcom.bluetooth.enable.splita2dp=false
+    persist.vendor.qcom.bluetooth.enable.splita2dp=false \
+    vendor.qcom.bluetooth.soc=pronto
 
 # Camera
 PRODUCT_PROPERTY_OVERRIDES += \
